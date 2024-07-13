@@ -42,11 +42,11 @@ const StopWatch = () => {
           <div className="my-5">
             <h1 className="text-3xl font-bold underline">Stop Watch</h1>
           </div>
-          <div className="mt-5 ">
+          <div className="mt-5 font-mono">
             {showStopTime ? (
               <h1 className="text-3xl font-bold sm:text-xl">{stoppedTime}</h1>
             ) : (
-              <h1 className="text-3xl font-bold font-mono sm:text-xl ">
+              <h1 className="text-3xl font-bold  sm:text-xl ">
                 {formatTime(elapsedTime)}
               </h1>
             )}
